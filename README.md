@@ -31,6 +31,18 @@ Streamlit UI → FileHandler → RAGPipeline (chunk/embed/retrieve/Groq) + NLPAn
 - NLP: NLTK, VADER
 - PDF: pdfplumber
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/initial.png" width="45%"/>
+  <img src="screenshots/after_upload.png" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/nlp_insights.png" width="45%"/>
+  <img src="screenshots/report.png" width="45%"/>
+</p>
+
 ## Use Cases
 - Query project logs: 'What risks?'
 - NLP on meeting notes
