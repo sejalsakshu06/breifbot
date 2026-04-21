@@ -1,6 +1,9 @@
-# AI Project Intelligence System
+# Breifbot
+
 
 A Streamlit app for analyzing project documents with RAG querying, NLP insights, and automated report generation using free Groq API.
+
+🚀 **Live Demo:** [Try the App](https://breifbot.streamlit.app/)
 
 ## Features
 - Upload PDF, TXT, CSV, MD, JSON files
