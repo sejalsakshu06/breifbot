@@ -1,4 +1,4 @@
-/* AI Project Intelligence System — Custom Styles */
+/* AI Project Intelligence System — Theme Safe Styles */
 
 /* Hero section */
 .hero {
@@ -15,7 +15,8 @@
 }
 .hero p {
     font-size: 1.1rem;
-    color: #6b7280;
+    color: var(--text-color);  /* FIX */
+    opacity: 0.7;
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.7;
@@ -23,8 +24,8 @@
 
 /* Feature cards */
 .feature-card {
-    background: #f9fafb;
-    border: 1px solid #e5e7eb;
+    background: var(--secondary-background-color);  /* FIX */
+    border: 1px solid rgba(128,128,128,0.2);        /* FIX */
     border-radius: 12px;
     padding: 1.5rem;
     text-align: center;
@@ -38,10 +39,12 @@
     font-size: 1.05rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    color: var(--text-color);  /* FIX */
 }
 .feature-card p {
     font-size: 0.9rem;
-    color: #6b7280;
+    color: var(--text-color);  /* FIX */
+    opacity: 0.7;
     line-height: 1.6;
 }
 
@@ -56,7 +59,7 @@
     min-width: 130px;
     font-weight: 500;
     font-size: 0.85rem;
-    color: #374151;
+    color: var(--text-color);  /* FIX */
 }
 .keyword-bar {
     height: 8px;
@@ -67,7 +70,8 @@
 }
 .keyword-score {
     font-size: 0.75rem;
-    color: #9ca3af;
+    color: var(--text-color);  /* FIX */
+    opacity: 0.6;
     min-width: 35px;
 }
 
@@ -78,13 +82,13 @@
 
 /* Sidebar */
 section[data-testid="stSidebar"] {
-    background: #fafafa;
+    background: var(--secondary-background-color);  /* FIX */
 }
 
 /* Metric cards */
 [data-testid="metric-container"] {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
+    background: var(--secondary-background-color);  /* FIX */
+    border: 1px solid rgba(128,128,128,0.2);
     border-radius: 10px;
     padding: 12px;
 }
