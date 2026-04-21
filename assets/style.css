@@ -1,0 +1,90 @@
+/* AI Project Intelligence System — Custom Styles */
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+}
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p {
+    font-size: 1.1rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Feature cards */
+.feature-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    height: 100%;
+    transition: border-color 0.2s;
+}
+.feature-card:hover {
+    border-color: #8b5cf6;
+}
+.feature-card h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.feature-card p {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+/* Keyword visualization */
+.keyword-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.keyword-tag {
+    min-width: 130px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #374151;
+}
+.keyword-bar {
+    height: 8px;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    border-radius: 4px;
+    max-width: 200px;
+    min-width: 4px;
+}
+.keyword-score {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    min-width: 35px;
+}
+
+/* Chat messages */
+.stChatMessage {
+    border-radius: 12px !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #fafafa;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px;
+}
